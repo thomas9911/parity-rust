@@ -4,6 +4,9 @@
 Small rust library to calculate the parity (if a number is even or odd) of a (large) number.
 
 ```rust
+use parity::Parity;
+use parity::{add, multiply, power};
+
 fn usage() {
     // find the parity of a large number
 
